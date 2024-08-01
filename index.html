@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/002835e857.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imageP/Tino.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>HI, I'm <span>Benjamin Pote</span><br> based in South Africa</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="imageP/BEN5.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello! I’m a recent IT graduate with a passion for blending technology with creativity. Armed with a degree in IT, I approach challenges with a unique mix of professionalism, humor, and keen observation. Known for my kindness and attention to detail, 
+                    I thrive on turning complex problems into straightforward solutions and keeping things light along the way. When I’m not immersed in code and geeking out over the latest gadgets, you might find me cracking jokes or noticing the little details others might miss. Let’s connect and make some tech magic happen!</p>
+           
+                   <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX & Graphic Design</span><br>Specializing in intuitive and visually appealing designs for websites and apps, I offer comprehensive services including user research, prototyping, 
+                                                           and branding to enhance user experience and brand identity.</li>
+                <li><span>Web Development</span><br>Custom websites with sleek designs, responsive layouts, 
+                                                    and optimized performance to elevate your online presence.</li>
+                <li><span>Digital Marketing</span><br>Tailored strategies to boost your online visibility and drive growth through SEO, social media, and targeted ads.</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2021 - Current</span><br>UI/UX and Graphic Designer at TynoeTech Designs (PTY) LTD</li>
+                <li><span>2021 - Current</span><br>Digital Marketing at TynoeTech Designs (PTY) LTD </li>
+                <li><span>2021 -  Current</span><br> Web Developer TynoeTech Designs (PTY) LTD</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021</span><br>Bsc IT Richfiled</li>
+                <li><span>2022</span><br>Javascript from Udemy</li>
+                <li><span>2023</span><br>CCNA certification from Cisco </li>
+            </ul>
+           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------Services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web DESIGN</h2>
+                <p> Transform your online presence with our expert web development services. 
+                    Specializing in custom-designed websites for small businesses, 
+                    startups, and individuals, we bring your vision to life with cutting-edge technologies like HTML, CSS, and JavaScript.
+                     Whether you need a sleek portfolio, a dynamic e-commerce platform, or a professional blog,
+                      we deliver tailored solutions that combine stunning design with seamless functionality. 
+                      Our services include SEO optimization, fast turnaround times, 
+                      and ongoing maintenance to ensure your site remains up-to-date and secure.
+                       Elevate your brand with a website that stands out and drives results.
+
+                </p>
+                <a href="https://tino40.github.io/Nike/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2> UI/UX AND GRAPHIC DESIGN</h2>
+                <p>Enhance your brand’s visual appeal and user experience with our expert UI/UX and graphic design services. We specialize in creating intuitive and aesthetically pleasing designs for websites, mobile apps, and digital products, tailored to meet the unique needs of small businesses, startups, and individuals. Our comprehensive services include user research, wireframing, prototyping, and high-fidelity visual designs, ensuring a seamless and engaging user journey. Additionally, our graphic design expertise covers logo creation, branding, and marketing materials, delivering cohesive and impactful visual identities. 
+                    Elevate your brand with designs that captivate and convert.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2> DIGITAL MARKETING</h2>
+                <p> Boost your online presence and drive growth with our comprehensive digital marketing services. We specialize in creating tailored strategies for small businesses, startups, and individuals, utilizing the latest tools and techniques to maximize your reach. From SEO and content marketing to social media management and pay-per-click advertising, we cover all aspects of digital marketing to ensure your brand stands out in the crowded online space. Our team is dedicated to delivering measurable results, enhancing your brand visibility, and engaging your target audience effectively. 
+                    Elevate your marketing efforts with our expert services and achieve your business goals.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------Portfolio---------------->
+<div id="porfolio">
+    <div class="container">
+   <h1 class="sub-title">My Work</h1>
+   <div class="work-list">
+    <div class="work">
+        <img src="imageP/social media1.png">
+        <div class="layer">
+            <h3> e-commerce Store.</h3>
+            <p>Showcasing my UI/UX and web development skills, the Nike website redesign features responsive design, intuitive navigation, dynamic visuals, enhanced performance, and secure e-commerce integration for an exceptional user experience.</p>
+            <a href="https://tino40.github.io/Nike/"><i class="fa-solid fa-link"></i></a> 
+            </div>
+    </div>
+    <div class="work">
+        <img src="imageP/music.png">
+        <div class="layer">
+            <h3>Graphic Designs Template.</h3>
+            <p>Under Construction</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a> 
+            </div>
+    </div>
+    <div class="work">
+        <img src="imageP/shopping.png">
+        <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>Under Construction</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a> 
+            </div>
+    </div>
+   </div>
+   <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>bpote03@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 062 170 0665</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+            <a href="imageP/BENJAMIN POTE.CV.pdf" download class="btn btn2">Donwload CV</a>
+        </div>
+    
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+    </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright &copy; Benjamin. Made with <i class="fa-solid fa-heart"></i></p>
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function  opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tablink of tabcontents){
+        tablink.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+sidemeu.style.right = "0";
+}
+
+function closemenu(){
+    sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzgpdh0KhmHpoYeC1Yod4sXo2wzHMYaM0xqK1qW4kWqMF6YLP1lgWRCDuNhOgldDaFR2A/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
